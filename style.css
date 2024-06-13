@@ -1,0 +1,121 @@
+.attribution {
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  width: 420px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.top-img {
+  border-radius: 20px 20px 0 0;
+  width: 420px;
+}
+
+.main-title {
+  color: hsl(223, 47%, 23%);
+  margin: 35px 0 20px;
+}
+
+.main-para {
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  margin: 10px 50px;
+  border-radius: 10px;
+}
+
+.plan > img {
+  object-fit: cover;
+  width: 45px;
+  height: 45px;
+  margin: 20px;
+}
+
+.plan-detail {
+  flex-direction: column;
+}
+
+.plan-detail1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 3px;
+  padding-top: 3px;
+}
+
+.plan-detail2 {
+  color: hsl(224, 23%, 55%);
+  margin-top: 3px;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+  margin: 15px 0 0 60px;
+}
+
+.change:hover {
+  color: hsl(252, 100%, 68%);
+}
+
+.btn > * {
+  border-style: none;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.btn1 {
+  padding: 15px 100px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  box-shadow: hsl(246, 86%, 83%) 0px 8px 24px;
+  margin: 30px 0 0;
+}
+
+.btn1:hover {
+  background-color: hsl(252, 100%, 68%);
+}
+
+.btn2 {
+  padding: 0px 120px;
+  background: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  margin: 30px 0 40px;
+}
+
+.btn2:hover {
+  color: black;
+}
